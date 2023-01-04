@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:black;
+    background-size: cover;
+    
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #bb301e;
+    margin-bottom: 50px;
+    padding: 13px 0;
+
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #bb301e;
+    
+    
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+
+}
+.login-box .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.login-box .link a{
+    text-decoration: none;
+    color: #bb301e;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #bb301e;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.Registration-form{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.Registration-form h2{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #bb301e;
+    margin-bottom: 10px;
+    padding: 13px 0;
+
+}
+.Registration-form p{
+    width:100%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: -10px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #bb301e;
+    
+}
+.Registration-form input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.Registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #bb301e;
+}
+
